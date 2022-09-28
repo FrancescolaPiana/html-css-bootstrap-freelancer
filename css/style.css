@@ -13,6 +13,13 @@
     --green: #1ABC9C;
 }
 
+.flp-bgcg{
+    background-color: var(--green);
+    border: 0px;
+    width: 100px;
+    height: 60px;
+}
+
 a{
     text-decoration: none;
 }
@@ -27,10 +34,6 @@ a{
 
 .height1{
     min-height: 90px;
-}
-
-.bbo{
-    background-color: var(--cyan);
 }
 
 .bkgh{
@@ -61,6 +64,10 @@ a{
     font-size: 30px;
 }
 
+.flp-font2b{
+    font-size: 20px;
+}
+
 .flp-font1c{
     font-size: 30px;
     font-weight: 700;
@@ -71,6 +78,19 @@ a{
 .flp-font2{
     font-size: 40px;
     font-weight: 700;
+    text-transform: uppercase;
+}
+
+.flp-font3{
+    font-size: 25px;
+    font-weight: 500;
+ 
+}
+
+.flp-font4{
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -91,12 +111,20 @@ main{
 }
 
 .flp-pdn{
-    padding: 30px 0px;
+    padding: 50px 0px;
+}
+
+.flp-pdn2{
+    padding: 40px 100px;
 }
 
 .flp-color1{
     background-color: var(--green);
     padding-bottom: 40px;
+}
+
+.flp-color1b{
+    background-color: var(--green);
 }
 
 .flp-line{
@@ -117,11 +145,13 @@ main{
     width: 100%;
 }
 
+.flp-mod{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid var(--cyan);
+}
 
-/* query */
+button
 
-/* @media screen and (min-width: 901px ) and (max-width: 1200px ){ */
-
-
-
-    
