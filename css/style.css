@@ -87,7 +87,11 @@ main{
 }
 
 .flp-pdnb{
-    margin-top: 15px;
+    margin-top: 30px;
+}
+
+.flp-pdn{
+    padding: 30px 0px;
 }
 
 .flp-color1{
@@ -108,3 +112,16 @@ main{
 .flp-rad{
     border-radius: 10px;
 }
+
+.flp-w{
+    width: 100%;
+}
+
+
+/* query */
+
+/* @media screen and (min-width: 901px ) and (max-width: 1200px ){ */
+
+
+
+    
