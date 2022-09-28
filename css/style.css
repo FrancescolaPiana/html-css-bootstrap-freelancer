@@ -11,6 +11,7 @@
     --cyan: #2C3E50;
     --grey: #888888;
     --green: #1ABC9C;
+    --lightcyan: #3A546D;
 }
 
 .flp-bgcg{
@@ -24,8 +25,16 @@ a{
     text-decoration: none;
 }
 
+.flp-colg{
+    color: var(--green);
+}
+
 .flp-color-1{
     color: var(--cyan);
+}
+
+.flp-color1c{
+    background-color: var(--lightcyan);
 }
 
 .flp-bg-1{
@@ -45,6 +54,19 @@ a{
 
 .flp-flex{
     display: flex;
+}
+
+.flp-font0b{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.flp-font0c{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .flp-font0{
@@ -110,12 +132,20 @@ main{
     margin-top: 30px;
 }
 
+.flp-pdnb2{
+    padding: 30px 0px;
+}
+
 .flp-pdn{
     padding: 50px 0px;
 }
 
 .flp-pdn2{
     padding: 40px 100px;
+}
+
+.flp-pdn2b{
+    padding: 50px 40px;
 }
 
 .flp-color1{
@@ -150,8 +180,20 @@ main{
     border-left: 0px;
     border-right: 0px;
     border-radius: 0px;
-    border-bottom: 2px solid var(--cyan);
+    border-bottom: 1px solid var(--cyan);
 }
 
-button
+.flp-roudedbr{
+    width: 43px;
+    height: 43px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
 
+.mrg0a{
+    margin: 0 auto;
+}
